@@ -1,0 +1,25 @@
+# Игнорирование папки target (результаты сборки Maven)
+target/
+
+# Игнорирование логов
+logs/
+logs.txt
+
+# Игнорирование конфигурационных файлов, содержащих локальные настройки
+*.properties
+flyway.conf
+
+
+# Игнорирование IDE-специфических файлов
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
+
+# Игнорирование файлов Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
